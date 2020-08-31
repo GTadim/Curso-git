@@ -25,6 +25,8 @@ namespace ProblemaExemplo_01 {
 
             double avg = sum / n;
 
+            Console.WriteLine();
+
             Console.WriteLine($"AVERAGE HEIGHT = {avg.ToString("F2", CI)}");
         }
     }
